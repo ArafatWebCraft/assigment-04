@@ -16,13 +16,13 @@ let t_height = Number(prompt('Enter Your height'))
 let triangle = 0.5 * base * t_height
 document.write('Area of trialgle: ' + triangle + "</br>")
 
-let ftemp = Number(prompt('Enter fahrenheit: '))
-let farcalc = (ftemp - 32) * 5/9
+let temp = Number(prompt('Enter fahrenheit: '))
+let farcalc = (temp - 32) * 5/9
 document.write('Celcius is :' + farcalc)
 
 
-let ctemp = Number(prompt('Enter celcius: '))
-let celciusCalc = ctemp * 9/5 + 32
+let c_temp = Number(prompt('Enter celcius: '))
+let celciusCalc = c_temp * 9/5 + 32
 document.write('<br> Farenheit is :' + celciusCalc)
 
 
